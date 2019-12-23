@@ -7,7 +7,7 @@ class Dog
     @this_dogs_name
   end 
   
-  def bark(woof)
+  def bark
     puts "Woof"
     end
   
@@ -19,6 +19,7 @@ end
 
 fido = Dog.new
 fido.name = "Fido"
+fido.bark = "Woof"
  
 puts fido.name 
 puts fido.bark

@@ -19,7 +19,7 @@ end
 
 fido = Dog.new
 fido.name = "Fido"
-fido.bark = "Woof"
+fido.bark
  
 puts fido.name 
 puts fido.bark
